@@ -1,16 +1,16 @@
 # Как установить CLion и настроить Gtest
 
-Disclaimer: данный туториал написан в для студентов МГТУ им Н. Э. Баумана и в частности для ИУ8 ради облегчения их нелёгкого пути ~~по морям дискретной математики~~ в лабораторных работах по Алгоритмическим языкам
+Disclaimer: данный туториал написан для студентов МГТУ им Н. Э. Баумана и в частности для ИУ8 ради облегчения их нелёгкого пути ~~по морям дискретной математики~~ в лабораторных работах по Алгоритмическим языкам
 
 * Подать заявку на предоставление бесплатной лицензии [JetBrains Products for Learning](https://www.jetbrains.com/shop/eform/students)
 
-![Скриншот с сайта подачи заявки](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/studentsLicence.png)
+![Скриншот с сайта подачи заявки](https://github.com/RKulagin/Clion-GTest/blob/master/img/studentsLicence.png)
 
 (То, что подчёркнуто красным нужно заполнить)
 
 * Скачать [CLion](https://www.jetbrains.com/clion/)
 
-![Скриншот с сайта загрузки](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/downloadCLion.png)
+![Скриншот с сайта загрузки](https://github.com/RKulagin/Clion-GTest/blob/master/img/downloadCLion.png)
 
 * Установить CLion. 
 
@@ -25,11 +25,11 @@ Disclaimer: данный туториал написан в для студен�
 
 * В Github Desktop: `File -> Clone repository` и выбираете нужный Вам репозиторий
 
-![Clone repository](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/cloneRepo.png)
+![Clone repository](https://github.com/RKulagin/Clion-GTest/blob/master/img/cloneRepo.png)
 
 * Изменить ветку на `wp/lab`
 
-![Change branch](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/branch.png)
+![Change branch](https://github.com/RKulagin/Clion-GTest/blob/master/img/branch.png)
 
 
 **Для Linux** (Описано для Debian/Ubuntu и других систем, использующих apt)
@@ -42,7 +42,7 @@ git clone <ссылка на ваш репозиторий>
 
 Где взять ссылку показано на картинке
 
-![Copy link](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/copyLink.png)
+![Copy link](https://github.com/RKulagin/Clion-GTest/blob/master/img/copyLink.png)
 
 ```shell script
 cd <название репозитория>
@@ -58,14 +58,14 @@ git submodule update --init
 
 * Выбираем пункт New CMake Project from Sources или `File -> New CMake Project from Sources`
 
-![New Project](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/welcomeToClion.png)
+![New Project](https://github.com/RKulagin/Clion-GTest/blob/master/img/welcomeToClion.png)
 
 * Выбираем папку с локальным репозиторием (обратите внимание, нужна именно папка, содержащая папку `.git`)
 
-![Choose local repository folder](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/chooseLocalRepo.png)
+![Choose local repository folder](https://github.com/RKulagin/Clion-GTest/blob/master/img/chooseLocalRepo.png)
 
 * Важно! Нажимаем Open Existing Project. Иначе CMakeLists.txt перезапишется
 
-![open existing project](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/openExProject.png)
+![open existing project](https://github.com/RKulagin/Clion-GTest/blob/master/img/openExProject.png)
 
 * Готово. Если делаете всё в первый раз на данной машине, то стоит немного подождать, пока Hunter скачает и установит необходимые зависимости  
