@@ -44,4 +44,5 @@ git submodule update --init
 * Выбираем папку с локальным репозиторием (обратите внимание, нужна именно папка, содержащая `.git` папку)
 ![Choose local repository folder](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/chooseLocalRepo.png)
 * Важно! Нажимаем Open Existing Project. Иначе CMakeLists.txt перезапишется
-![open existing project](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/openExProject.png))
+![open existing project](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/openExProject.png)
+* Готово. Если делаете всё в первый раз на данной машине, то стоит немного подождать, пока Hunter скачает и установит необходимые зависимости  
