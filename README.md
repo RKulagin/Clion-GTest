@@ -26,7 +26,12 @@ sudo apt update
 sudo apt install git
 git clone <ссылка на ваш репозиторий>
 ```
+Где взять ссылку показано на картинке
 ![Copy link](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/copyLink.png)
 ```shell script
-git br
+git checkout -b wp/lab
 ```
+
+Далее для всех ОС
+
+* Запускаем 
