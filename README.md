@@ -14,9 +14,9 @@ Disclaimer: данный туториал написан в для студен�
 
 Для Windows или macOS
 * Скачать [Github Desktop](https://desktop.github.com/) для Windows | macOS
-* В Github Desktop: File->Clone repository и выбираете нужный Вам репозиторий
+* В Github Desktop: `File ->Clone repository` и выбираете нужный Вам репозиторий
 ![Clone repository](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/cloneRepo.png)
-* Изменить ветку на wp/lab
+* Изменить ветку на `wp/lab`
 ![Change branch](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/branch.png)
 
 
@@ -28,10 +28,16 @@ git clone <ссылка на ваш репозиторий>
 ```
 Где взять ссылку показано на картинке
 ![Copy link](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/copyLink.png)
+
 ```shell script
+cd <название репозитория>
 git checkout -b wp/lab
+git submodule update --init
 ```
+Последняя команда может быть необязательной для выполнения каждый раз, но если что-то не работает, то её нужно выполнить.
 
 Далее для всех ОС
 
-* Запускаем 
+* Запускаем CLion
+* Выбираем пункт New CMake Project from Sources или `File -> New CMake Project from Sources`
+![New Project](https://github.com/RKulagin/Clion-GTest/blob/inWork/img/welcomeToCLion.png)
