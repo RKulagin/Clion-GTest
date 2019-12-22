@@ -47,6 +47,12 @@ Disclaimer: данный туториал написан для студенто
 
 ![Git Bash Here](https://github.com/RKulagin/Clion-GTest/blob/master/img/gitBashHere.png)
 
+И выполняем эту команду.
+
+```shell script
+git submodule update --init
+```
+
 **Для Linux** (Описано для Debian/Ubuntu и других систем, использующих apt)
 
 ```shell script
