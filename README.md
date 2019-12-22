@@ -31,6 +31,21 @@ Disclaimer: данный туториал написан для студенто
 
 ![Change branch](https://github.com/RKulagin/Clion-GTest/blob/master/img/branch.png)
 
+* Далее нужно скачать [Python](https://www.python.org/downloads/) 
+ 
+![Download Python](https://github.com/RKulagin/Clion-GTest/blob/master/img/python.png)
+ 
+Установка стандартная, не требует дополнительных действий. Просто нажимаем далее, если спрашивают. Ничего не меняем
+ 
+* И [Git Bash](https://git-scm.com/download)
+
+![Download Git Bash](https://github.com/RKulagin/Clion-GTest/blob/master/img/gitBash.png)
+
+Установка стандартная, не требует дополнительных действий. Просто нажимаем далее, если спрашивают. Ничего не меняем
+
+Заходим в папку с клонированным репозиторием в проводнике. Кликаем ПКМ и выбираем Git Bash Here
+
+![Git Bash Here](https://github.com/RKulagin/Clion-GTest/blob/master/img/gitBashHere.png)
 
 **Для Linux** (Описано для Debian/Ubuntu и других систем, использующих apt)
 
